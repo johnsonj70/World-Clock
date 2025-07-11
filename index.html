@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>World Clock - Janice Johnson</title>
 </head>
@@ -11,24 +13,24 @@
 <h1>World Clock</h1>
 <select>
     <option value="">Select a city..</option>
-    <option value="">Paris</option>
+    <option value="">Bridgetown</option>
     <option value="">Cape Town</option>
-    <option value="">Toronto</option>
     <option value="">Dusseldorf</option>
+    <option value="">Las Vegas</option>
 </select>
-<div class="city">
+<div class="city" id="london">
     <div>
         <h2>London 🇬🇧</h2>
-        <div class="date">10 July 2025</div>
+        <div class="date"></div>
     </div>
-    <div class="time">18:19:10 <small> PM</small></div>
+    <div class="time"></div>
 </div>
-<div class="city">
+<div class="city" id="new-york">
     <div>
         <h2>New York 🇺🇸</h2>
-        <div class="date">10 July 2025</div>
+        <div class="date"></div>
     </div>
-    <div class="time">18:19:10 <small> PM</small></div>
+    <div class="time"></div>
 </div>
 </div>
 <footer>
