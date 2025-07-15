@@ -1,7 +1,7 @@
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background: white;
+    background: #F0FFFF;
     padding: 60px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
@@ -20,53 +20,59 @@
 }
 
 .date {
+    font-family: Cal Sans;
+    color: #1434A4;
     opacity: 0.7;
 }
 
 .time {
-    font-family: sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+    font-family: Cal Sans;
+    color: #1434A4;
+    font-size: 48px
 }
 
 .time small {
-    font-family: sans-serif;
+    font-family: Cal Sans;
+    color: #1434A4;
     font-size: 24px;
     vertical-align: middle;
     line-height: 36px;
 }
 
 body {
-    background: #f9f7fe;
+    background-color: #A7C7E7;
     font-family: sans-serif;
 }
 
 select {
     display: block;
+    background-color: #F0FFFF;
+     color: #1434A4;
     width: 100%;
     line-height: 36px;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: Cal Sans;
+    font-weight: 200;
     border-radius: 5px;
     padding: 10px;
 }
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
-    font-size: 36px;
-    color: black;
+    font-family: Cal Sans;
+    font-size: 40px;
+    color: #1434A4;
 }
 
 h2 {
     margin: 0 0 3px;
-    font-family: sans-serif;
-    font-size: 28px;
-    color: black;
+    font-family: Cal Sans;
+    font-size: 32px;
+    color: #1434A4;
 }
 
 footer {
     text-align: center;
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.8);
+    color: #00008B;
 }
